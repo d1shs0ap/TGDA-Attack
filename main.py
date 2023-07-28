@@ -173,7 +173,7 @@ pre_train=False
 # specify which architecture to evaluate here
 leader = Leader().to(device).double()
 # follower = Follower_lr().to(device).double()
-follower = 
+follower = Follower_pretrained().to(device).double()
 
 
 epoch_start = 0
